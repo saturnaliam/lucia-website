@@ -1,10 +1,15 @@
-// TODO Get express.js setup
-
-// TODO Forward wepbages to get request
+const express = require('express.js');
+const app = express();
 
 const webpagePath = "/src/html/";
-const endpoints = [
+const webpages = [
     `${webpagePath}index.html`,
     `${webpagePath}portfolio.html`,
     `${webpagePath}`
 ];
+const endpoints = [
+    "",
+    "portfolio"
+];
+
+// TODO Forward webpages to specific get requests.
