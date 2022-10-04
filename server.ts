@@ -8,5 +8,3 @@ const endpoints = [
     `${webpagePath}portfolio.html`,
     `${webpagePath}`
 ];
-
-console.log(webpagePath);
