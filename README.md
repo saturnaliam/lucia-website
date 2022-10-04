@@ -4,8 +4,11 @@ For proper code viewing, install [Todo Tree](https://marketplace.visualstudio.co
 
 Dependencies:
   - express.js
+  - TypeScript
 
-Files, Folders, & Uses:
+<details>
+<summary>Files, Folders, & Uses</summary>
+
   - server.ts 
     - Runs the server
     - Stores information on serer endpoints
@@ -27,4 +30,4 @@ Files, Folders, & Uses:
     - /js/
       - Stores any JavaScript used in the website.
       - index.js
-        - Stores any JavaScript used in the index.html file.
+        - Stores any JavaScript used in the index.html file
