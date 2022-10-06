@@ -27,6 +27,7 @@ li {
 .headingCaption {
     font-style: italic;
     color: gray;
+    margin: 0px 150px;
 }
 
 article {
@@ -35,6 +36,21 @@ article {
     margin: 0 auto;
 }
 
-.langs {
-    max-width: 400px;
+.aboutMe {
+    max-width: 500px;
+}
+
+#langs {
+    max-width: 500px;
+    display: inline-block;
+}
+
+
+#aboutMeYears {
+    color: rgb(204, 92, 185);
+    text-decoration: none;
+}
+
+#aboutMeYears:hover {
+    color: rgb(141, 32, 126);
 }
