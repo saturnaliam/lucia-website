@@ -42,6 +42,7 @@ article {
 
 #langs {
     max-width: 500px;
+    height: 360px;
     display: inline-block;
 }
 
