@@ -20,7 +20,6 @@ li {
 
 .lengthKnown {
     color: #7567cf;
-    vertical-align: super;
     font-size: 15px;
 }
 
@@ -32,7 +31,7 @@ li {
 
 article {
     border: #1f1a42 solid 3px;
-    border-radius: 5px;
+    border-radius: 15px;
     margin: 0 auto;
 }
 
@@ -41,11 +40,15 @@ article {
 }
 
 #langs {
-    max-width: 500px;
+    width: 500px;
     height: 360px;
     display: inline-block;
 }
 
+ul {
+    display: inline-block;
+    height: 50px;
+}
 
 #aboutMeYears {
     color: rgb(204, 92, 185);
