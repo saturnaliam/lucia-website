@@ -2,6 +2,7 @@ body {
     background-image: url("../images/white_wall_hash.webp");
     text-align: center;
     font-family: 'Nunito', sans-serif;
+    background-size: 100%;
 }
 
 h1 {
@@ -35,6 +36,30 @@ article {
     margin: 0 auto;
 }
 
+ul {
+    display: inline-block;
+    height: 50px;
+}
+
+button {
+    border: #1f1a42 solid 3px;
+    border-radius: 15px;
+    width: 300px;
+    height: 75px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 25px;
+    transition-duration: 0.4s;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    border-radius: 30px;
+    border: #1f1a42 dashed 3px;
+    width: 350px;
+    height: 88px;
+}
+
 .aboutMe {
     max-width: 500px;
 }
@@ -43,11 +68,6 @@ article {
     width: 500px;
     height: 360px;
     display: inline-block;
-}
-
-ul {
-    display: inline-block;
-    height: 50px;
 }
 
 #aboutMeYears {
