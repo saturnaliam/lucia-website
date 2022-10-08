@@ -62,6 +62,8 @@ button:hover {
 
 .aboutMe {
     max-width: 500px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 #langs {
@@ -73,8 +75,25 @@ button:hover {
 #aboutMeYears {
     color: rgb(204, 92, 185);
     text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.4s;
 }
 
 #aboutMeYears:hover {
     color: rgb(141, 32, 126);
+}
+
+#roboticsClub {
+    transition-duration: 0.4s;
+    color:rgb(0, 66, 199);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#roboticsClub:hover {
+    color:rgb(0, 18, 55);
+}
+
+#interests {
+    color:rgb(195, 80, 227);
 }

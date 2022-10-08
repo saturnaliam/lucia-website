@@ -9,9 +9,11 @@ Dependencies:
 <details>
 <summary>Files, Folders, & Uses</summary>
 
-  - server.ts 
-    - Runs the server
-    - Stores information on serer endpoints
+  - index.html
+    - Stores the HTML code for the initial website.
+    - Displays about me section
+    - Displays programming languages known section
+    - Gives navigation links to other parts of website.
   - /src/
     - /css/
       - Stores any CSS and styling information the website needs.
@@ -19,11 +21,6 @@ Dependencies:
         - Stores styling information for the index.html file.
     - /html/
       - Stores HTML files used for the website.
-      - index.html
-        - Stores the HTML code for the initial website.
-        - Displays about me section
-        - Displays programming languages known section
-        - Gives navigation links to other parts of website.
       - portfolio.html
         - Stores links to portfolio pages.
         - Stores information on portfolio pages. 
