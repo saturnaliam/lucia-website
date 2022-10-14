@@ -97,3 +97,28 @@ button:hover {
 #interests {
     color:rgb(195, 80, 227);
 }
+
+footer {
+    padding-top: 4.3em;
+    display: inline-block;
+    width: 100%;
+}
+
+.contact {
+    color:#7567cf;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding-right: 2em;
+}
+
+.contact:hover {
+    color:#2f2187;
+    font-size: 1.3em;
+}
+
+.contact:active {
+    color:#0b0531;
+    font-size: 1.35em;
+}
